@@ -21,8 +21,15 @@ require 'directors_database'
 
 def directors_totals(nds)
   
-  result = {"Steven Spielberg"=> x,
-            
+  result = {"Steven Spielberg"=> ,
+            "Russo Brothers"=> ,
+            "James Cameron"=> ,
+            "Spike Lee"=> ,
+            "Wachowski Siblings"=> ,
+            "Robert Zemeckis"=> ,
+            "Quentin Tarantino"=> ,
+            "Martin Scorsese"=> ,
+            "Francis Ford Coppola"=> 
   }
   
   row_index1 = 0 
