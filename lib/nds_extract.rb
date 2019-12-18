@@ -24,11 +24,6 @@ def directors_totals(nds)
   result = {
   }
   
-  row_index1 = 0
-  while row_index < directors_database.count do
-    result << directors_database[:name]
-    row_index1 += 1
-  end
   
   
   return result
