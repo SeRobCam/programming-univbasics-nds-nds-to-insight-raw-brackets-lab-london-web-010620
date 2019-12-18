@@ -21,7 +21,7 @@ require 'directors_database'
 
 def directors_totals(nds)
   
-  result = {"Steven Spielberg"=> ,
+  result = {"Stephen Spielberg"=> ,
             "Russo Brothers"=> ,
             "James Cameron"=> ,
             "Spike Lee"=> ,
