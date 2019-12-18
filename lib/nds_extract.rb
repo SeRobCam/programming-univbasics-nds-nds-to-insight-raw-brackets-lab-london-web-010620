@@ -24,7 +24,8 @@ def directors_totals(nds)
   result = {
   }
   
-  
+  row_index1 = 0 
+  while row_index1 < directors_totals[0]
   
   return result
 end
