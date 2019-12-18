@@ -7,7 +7,7 @@ def directors_totals(nds)
   #
   #
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
-  result = {:Stephen_Spielberg=>1357566430
+  result = {"Stephen_Spielberg" =>1357566430
   }
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
