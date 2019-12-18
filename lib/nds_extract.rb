@@ -21,13 +21,14 @@ require 'directors_database'
 
 def directors_totals(nds)
   
-  result = {"Steven Spielberg"=>
+  result = {"Steven Spielberg"=> x,
+            ""
   }
   
   row_index1 = 0 
-  total = 0 
+  x = 0 
   while row_index1 < directors_totals[0][:movies].length do 
-    total + directors_totals[0][:movies][:worldwide_gross]
+    total + directors_totals[0][:movies][row_index1][:title][:worldwide_gross]
     row_index1 += 1
   end
   
