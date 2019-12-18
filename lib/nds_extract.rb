@@ -34,7 +34,7 @@ def directors_totals(nds)
   
   row_index1 = 0 
   a = 0 
-  while row_index1 < directors_totals[0][:movies].length do 
+  while row_index1 < directors_totals[0][:movies].count do 
     a += directors_totals[0][:movies][row_index1][:title][:worldwide_gross]
     row_index1 += 1
   end
