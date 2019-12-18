@@ -22,7 +22,7 @@ require 'directors_database'
 def directors_totals(nds)
   
   result = {"Steven Spielberg"=> x,
-            ""
+            
   }
   
   row_index1 = 0 
