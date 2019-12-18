@@ -27,6 +27,7 @@ def directors_totals(nds)
             "Spike Lee" => 256624217,
             "Wachowski Siblings" => 806180282,
             "Robert Zemeckis" => 1273838385,
+            "Quentin Tarantino" => 662738268,
             
   }
   
