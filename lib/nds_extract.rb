@@ -26,19 +26,10 @@ def directors_totals(nds)
   
   row_index1 = 0
   while row_index < directors_database.count do
-    row_index2 = 0 
     result << directors_database[:name]
-    while row_index2 < directors_database[row_index1].count do 
-      row_index3 = 0 
-      while row_index3 < directors_database[row_index1][row_index2] do
-        result << directors_database[row_index1][row_index2][row_index3][:worlwide_gross]
-      
-      row_index3 += 1
-      end
-    row_index2 += 1
-    end
-  row_index1 += 1
+    row_index1 += 1
   end
+  
   
   return result
 end
