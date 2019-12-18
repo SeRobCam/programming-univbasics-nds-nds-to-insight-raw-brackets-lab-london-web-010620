@@ -41,5 +41,5 @@ def directors_totals(nds)
     return a
     end
   
-  return pp steven_spielberg
+  return result
 end
