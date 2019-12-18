@@ -7,12 +7,7 @@ require 'directors_database'
   #
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
 
-
-def directors_totals(nds)
-  
-  result = {"Stephen_Spielberg" => 1357566430
-  }
-  #
+#
   # Use loops, variables and the accessing method, [], to loop through the NDS
   # and total up all the
   # ...
@@ -21,6 +16,12 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
+
+def directors_totals(nds)
+  
+  result = {"Stephen_Spielberg" => 1357566430
+  }
+  
   return result
 end
 
